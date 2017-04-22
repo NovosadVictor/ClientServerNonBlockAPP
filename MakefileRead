@@ -1,0 +1,19 @@
+CC=g++
+CFLAGS=-c
+
+all: re
+
+re: read.o billing.o phone.o date.o
+	$(CC) read.o billing.o phone.o date.o -o re
+
+billing.o: billing.cpp billing.h
+	$(CC) $(CFLAGS) billing.cpp
+phone.o: phone.cpp phone.h
+	$(CC) $(CFLAGS) phone.cpp
+date.o: date.cpp date.h
+	$(CC) $(CFLAGS) date.cpp
+read.o: read.cpp billing.cpp phone.cpp date.cpp
+	$(CC) $(CFLAGS) read.cpp
+
+clean:
+	rm -f *.o re

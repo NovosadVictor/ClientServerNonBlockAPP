@@ -1,0 +1,20 @@
+CC=g++ -std=c++11
+CFLAGS=-c
+
+all: client
+
+client: client.o billing.o phone.o date.o
+	$(CC) client.o billing.o date.o phone.o -o client
+
+billing.o: billing.cpp billing.h
+	$(CC) $(CFLAGS) billing.cpp
+phone.o: phone.cpp phone.h
+	$(CC) $(CFLAGS) phone.cpp
+date.o: date.cpp date.h
+	$(CC) $(CFLAGS) date.cpp
+client.o: client.cpp
+	$(CC) $(CFLAGS) client.cpp
+
+clean:
+	rm -f *.o client
+

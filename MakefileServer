@@ -1,0 +1,32 @@
+CC=g++ -std=c++11
+CFLAGS=-c
+
+all: server
+
+server: server.o billing.o phone.o date.o parser.o select.o insert.o delete.o update.o conn.o
+	$(CC) server.o billing.o phone.o date.o parser.o select.o insert.o delete.o update.o conn.o -o server
+
+billing.o: billing.cpp billing.h
+	$(CC) $(CFLAGS) billing.cpp
+phone.o: phone.cpp phone.h
+	$(CC) $(CFLAGS) phone.cpp
+date.o: date.cpp date.h
+	$(CC) $(CFLAGS) date.cpp
+parser.o: parser.cpp parser.h
+	$(CC) $(CFLAGS) parser.cpp
+select.o: select.cpp select.h
+	$(CC) $(CFLAGS) select.cpp
+insert.o: insert.cpp insert.h
+	$(CC) $(CFLAGS) insert.cpp
+delete.o: delete.cpp delete.h
+	$(CC) $(CFLAGS) delete.cpp
+update.o: update.cpp update.h
+	$(CC) $(CFLAGS) update.cpp
+conn.o: conn.cpp conn.hpp
+	$(CC) $(CFLAGS) conn.cpp
+server.o: server.cpp
+	$(CC) $(CFLAGS) server.cpp
+
+clean:
+	rm -f *.o server
+
