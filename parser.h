@@ -13,16 +13,16 @@
 class Parser {
 public:
 	Parser();
-	Parser(int &fd);
+	Parser(int fd);
 	void SetAllVector(int fd);
-	void ParseRequest(const char *request, int &fd);
+	void ParseRequest(const char *request, int fd);
 	int GetType() const;
 	size_t GetTotal() const;
     void GetSelect(SELECT select, int flag);
 	void GetInsert(INSERT insert);
 	void GetDelete(DELETE delete_, int flag);
     void GetUpdate(UPDATE update, int flag);
-	void GetSave(int &fd);
+	void GetSave(int fd);
     std::vector<Billing> GetResponse() const;
 private:
 	size_t _total;

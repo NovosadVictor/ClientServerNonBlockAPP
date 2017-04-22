@@ -1,0 +1,1032 @@
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALLv
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL
+INSERT phone=[925-067-18-32] service=[2] sum=[1211]
+SELECT ALL

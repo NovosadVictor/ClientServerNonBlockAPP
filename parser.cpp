@@ -5,11 +5,11 @@
 
 std::vector<char> DeleteSpaces(const char *request) {
     std::vector<char> v;
-    v.clear();
 	for (size_t i = 0; i < strlen(request); ++i) {
         if (request[i] != ' ')
             v.push_back(request[i]);
     }
+    v.push_back('\0');
     return v;
 }
 
@@ -17,7 +17,7 @@ Parser::Parser() {
 	_type = -1;
 }
 
-Parser::Parser(int &fd) {
+Parser::Parser(int fd) {
     SetAllVector(fd);
     _type = -1;
 }
@@ -37,7 +37,7 @@ void Parser::SetAllVector(int fd) {
     }
 }
 
-void Parser::ParseRequest(const char *request, int &fd) {
+void Parser::ParseRequest(const char *request, int fd) {
     _total = 0;
     std::vector<char> v;
     v = DeleteSpaces(request);
@@ -1494,7 +1494,7 @@ void Parser::GetUpdate(UPDATE update, int flag) {
 
 }
 
-void Parser::GetSave(int &fd) {
+void Parser::GetSave(int fd) {
     if (_type == 7) {
         if (fd) {
             if (close(fd) == -1)

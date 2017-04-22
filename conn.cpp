@@ -1,11 +1,13 @@
 #include "conn.hpp"
 
 Conn::Conn(int fd, int file_desc):
-        fd_(fd), actv_(true), request_(Parser(file_desc)),
+        fd_(fd), actv_(true),
         icur_(0), iall_(4), already_written_(true),
-        ocur_(0), oall_(1, 0),
-        ibuf_(4, 0), obuf_(1, std::vector<char>(4, 0)),
-        file_desc_(file_desc), curr_(0) {}
+        ocur_(0), oall_(10, 0),
+        ibuf_(4, 0), obuf_(10, std::vector<char>(4, 0)),
+        file_desc_(file_desc), curr_(0) {
+    request_.SetAllVector(file_desc);
+}
 
 Conn::~Conn() {
     close_();
@@ -49,10 +51,9 @@ void Conn::rcv() {
             ibuf_.resize(h + sizeof h, 0);
             iall_ += h;
         } else {
+            obuf_.clear();
             printf("Input request from %d:\n    ", fd_);
             puts(&ibuf_[4]);
-            obuf_.clear();
-            oall_.clear();
             already_written_ = false;
             try {
                 request_.ParseRequest(&ibuf_[sizeof(h)], file_desc_);
@@ -63,11 +64,11 @@ void Conn::rcv() {
 
                 h = 63;
                 oall_[0] = h + sizeof(h);
+                memcpy(&(obuf_[0][0]), &h, sizeof(h));
                 obuf_[0].resize(oall_[0], 0);
-                memcpy(&obuf_[0][0], &h, sizeof(h));
-                sprintf(&obuf_[0][0] + sizeof(h),
+                sprintf(&(obuf_[0][0]) + sizeof(h),
                         "Server:\n   status = -1\n    It was wrong request, try again...\n");
-                obuf_[0][oall_[0] - 1] = '\0';
+                obuf_[0][62 + sizeof(h)] = '\0';
                 return;
             }
             int type = request_.GetType();
@@ -76,87 +77,87 @@ void Conn::rcv() {
                 obuf_.resize(2, std::vector<char>(4, 0));
                 h = 22;
                 oall_[0] = h + sizeof(h);
+                memcpy(&(obuf_[0][0]), &h, sizeof(h));
                 obuf_[0].resize(oall_[0], 0);
-                memcpy(&obuf_[0][0], &h, sizeof(h));
-                sprintf(&obuf_[0][0] + sizeof(h), "Server:\n   status = %d", type);
-                obuf_[0][21] = '\0';
+                sprintf(&(obuf_[0][0]) + sizeof(h), "Server:\n   status = %d", type);
+                obuf_[0][21 + sizeof(h)] = '\0';
                 switch (type) {
                     case 2: {
                         h = 30;
                         oall_[1] = h + sizeof(h);
+                        memcpy(&(obuf_[1][0]), &h, sizeof(h));
                         obuf_[1].resize(oall_[1], 0);
-                        memcpy(&obuf_[1][0], &h, sizeof(h));
-                        sprintf(&obuf_[1][0] + sizeof(h), "\n    User successfully added\n");
-                        obuf_[1][oall_[1] - 1] = '\0';
+                        sprintf(&(obuf_[1][0]) + sizeof(h), "\n    User successfully added\n");
+                        obuf_[1][29 + sizeof(h)] = '\0';
                         break;
                     }
                     case 3: {
                         h = 42;
                         oall_[1] = h + sizeof(h);
+                        memcpy(&(obuf_[1][0]), &h, sizeof(h));
                         obuf_[1].resize(oall_[1], 0);
-                        memcpy(&obuf_[1][0], &h, sizeof(h));
                         size_t total = request_.GetTotal();
-                        sprintf(&obuf_[1][0] + sizeof(h), "%07lu\n    User(s) successfully deleted\n",
+                        sprintf(&(obuf_[1][0]) + sizeof(h), "%07lu\n    User(s) successfully deleted\n",
                                 total);
-                        obuf_[1][oall_[1] - 1] = '\0';
+                        obuf_[1][41 + sizeof(h)] = '\0';
                         break;
                     }
                     case 4: {
                         h = 42;
                         oall_[1] = h + sizeof(h);
+                        memcpy(&(obuf_[1][0]), &h, sizeof(h));
                         obuf_[1].resize(oall_[1], 0);
-                        memcpy(&obuf_[1][0], &h, sizeof(h));
                         size_t total = request_.GetTotal();
-                        sprintf(&obuf_[1][0] + sizeof(h), "%07lu\n    User(s) successfully updated\n",
+                        sprintf(&(obuf_[1][0]) + sizeof(h), "%07lu\n    User(s) successfully updated\n",
                                 total);
-                        obuf_[1][oall_[1] - 1] = '\0';
+                        obuf_[1][41 + sizeof(h)] = '\0';
                         break;
                     }
                     case 7: {
                         h = 24;
                         oall_[1] = h + sizeof(h);
+                        memcpy(&(obuf_[1][0]), &h, sizeof(h));
                         obuf_[1].resize(oall_[1], 0);
-                        memcpy(&obuf_[1][0], &h, sizeof(h));
-                        sprintf(&obuf_[1][0] + sizeof(h), "\n    All changes saved\n");
-                        obuf_[1][oall_[1] - 1] = '\0';
+                        sprintf(&(obuf_[1][0]) + sizeof(h), "\n    All changes saved\n");
+                        obuf_[1][23 + sizeof(h)] = '\0';
                         break;
                     }
                 }
                 return;
             }
             if (type == 1) {
-                obuf_.resize(request_.GetResponse().size() + 2, std::vector<char>(4, 0));
-                oall_.resize(request_.GetResponse().size() + 2, 0);
+                size_t length = request_.GetResponse().size() + 2;
+                obuf_.resize(length, std::vector<char>(56, 0));
+                oall_.resize(length, 0);
 
                 h = 22;
                 oall_[0] = h + sizeof(h);
+                memcpy(&(obuf_[0][0]), &h, sizeof(h));
                 obuf_[0].resize(oall_[0], 0);
-                memcpy(&obuf_[0][0], &h, sizeof(h));
-                sprintf(&obuf_[0][0] + sizeof(h), "Server:\n   status = %d", type);
-                obuf_[0][oall_[0] - 1] = '\0';
+                sprintf(&(obuf_[0][0]) + sizeof(h), "Server:\n   status = %d", type);
+                obuf_[0][21 + sizeof(h)] = '\0';
 
                 h = 24;
                 oall_[1] = h + sizeof(h);
+                memcpy(&(obuf_[1][0]), &h, sizeof(h));
                 obuf_[1].resize(oall_[1], 0);
-                memcpy(&obuf_[1][0], &h, sizeof(h));
-                size_t request_response_size = (request_.GetResponse()).size();
-                sprintf(&obuf_[1][0] + sizeof(h), "    quantity = %07lu\n", request_response_size);
-                obuf_[1][oall_[1] - 1] = '\0';
+                size_t request_response_size = length - 2;
+                sprintf(&(obuf_[1][0]) + sizeof(h), "    quantity = %07lu\n", request_response_size);
+                obuf_[1][23 + sizeof(h)] = '\0';
 
-                for (size_t i = 2; i < oall_.size(); ++i) {
+                for (size_t i = 2; i < length; ++i) {
                     h = 52;
                     oall_[i] = h + sizeof(h);
-                    obuf_[i].resize(oall_[i], 0);
-                    memcpy(&obuf_[i][0], &h, sizeof(h));
+                    memcpy(&(obuf_[i][0]), &h, sizeof(h));
                     int service = (request_.GetResponse()[i - 2]).GetService();
                     double sum = (request_.GetResponse()[i - 2]).GetSum();
-                    sprintf(&obuf_[i][0] + sizeof(h), "    %s %d %s %05lf",
+                    sprintf(&(obuf_[i][0]) + sizeof(h), "    %13s %d %19s %05lf",
                             (request_.GetResponse()[i - 2]).GetPhone().GetNumber(),
                             service,
                             (request_.GetResponse()[i - 2]).GetDate().GetDate(),
                             sum
                     );
-                    obuf_[i][oall_[i] - 1] = '\0';
+                    obuf_[i][51 + sizeof(h)] = '\0';
                 }
                 return;
             }
