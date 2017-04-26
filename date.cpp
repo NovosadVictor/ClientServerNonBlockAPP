@@ -3,7 +3,13 @@
 
 
 Date::Date() {
-	SetCorrect(1900, 1, 1, 0, 0, 0);
+	int y = 1900 + rand() % 200;
+	int m = 1 + rand() % 12;
+	int d = 1 + rand() % 30;
+	int h = rand() % 24;
+	int min = rand() % 60;
+	int sec = rand() % 60;
+	SetCorrect(y, m, d, h, min, sec);
 }
 
 Date::Date(int y, int m, int d, int h, int min, int sec) {

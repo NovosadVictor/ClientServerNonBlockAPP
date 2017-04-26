@@ -1,9 +1,9 @@
 #include "billing.h"
 
 
-Billing::Billing() {
-	SetCorrect(Phone(), 1, Date(), 1);
-}
+Billing::Billing(): _service(1 + (rand() % 4)),
+                    _sum(1000 + (rand() / (double)RAND_MAX) * (rand() % 9000)) {}
+
 
 Billing::Billing(Phone phone, int service, Date dateTime, double sum) {
 	SetCorrect(phone, service, dateTime, sum);
@@ -15,9 +15,9 @@ void Billing::SetBilling(Phone phone, int service, Date dateTime, double sum) {
 
 void Billing::SetRand() {
 	_phone.SetRand();
-	_service = 1 + rand() % 4;
+//	_service = 1 + rand() % 4;
 	_dateTime.SetRand();
-	_sum = (rand() / (double)RAND_MAX) * (rand() % 15000);
+//	_sum = (rand() / (double)RAND_MAX) * (rand() % 15000);
 }
 
 void Billing::SetCorrect(Phone phone, int service, Date dateTime, double sum) {

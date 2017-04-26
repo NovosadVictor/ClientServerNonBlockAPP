@@ -16,10 +16,8 @@ int main(int argc, char **argv) {
 	int quantity = atoi(argv[2]);
 	try {
 		Billing *checks = new Billing[quantity];
-		for(int i = 0; i < quantity; ++i) {
-			checks[i].SetRand();
+		for(int i = 0; i < quantity; ++i)
 			checks[i].WriteBin(fd);
-		}
 		if (close(fd) == -1) {
 			std::cout << "Error in close" << std::endl;
 			return -1;

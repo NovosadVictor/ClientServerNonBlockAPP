@@ -120,6 +120,8 @@ static void repl(int fd) {
             if (!writeAll(fd, &l[0], len))
                 throw "     - Write(text) error.";
 
+            //system("./lol.sh");
+
             for (;;) {
 
                 if (!readAll(fd, (char *) &len, sizeof len))

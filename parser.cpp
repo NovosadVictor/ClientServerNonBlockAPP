@@ -48,6 +48,15 @@ void Parser::ParseRequest(const char *request) {
     int sumMin, sumMax;
     int x;
     // SAVE
+    size_t quantity;
+    if (sscanf(&v[0], "INSERT[%lu]", &quantity) == 1) {
+        for (size_t i = 0; i < quantity; ++i) {
+            Billing bil;
+            _AllVector.push_back(bil);
+        }
+        _type = 2;
+        return;
+    }
     sscanf(&v[0], "SAVE%n", &x);
     if (x == 4) {
         _type = 7;
@@ -1507,6 +1516,11 @@ void Parser::GetSave() {
                 throw std::invalid_argument("Cant open file in parser");
             for (size_t i = 0; i < _AllVector.size(); ++i)
                 _AllVector[i].WriteBin(fd_);
+            if (close(fd_) == -1)
+                throw std::invalid_argument("Cant close file in parser");
+            fd_ = open("database.db", O_RDONLY);
+            if (fd_ == -1)
+                throw std::invalid_argument("Cant open file in parser");
             return;
         } else
             throw std::invalid_argument("File does not open");

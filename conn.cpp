@@ -166,7 +166,7 @@ void Conn::rcv() {
                             date,
                             sum
                     );
-                    obuf_[i][51 + sizeof(h)] = '\0';
+                    obuf_[i][51+ sizeof(h)] = '\0';
                 }
                 return;
             }
