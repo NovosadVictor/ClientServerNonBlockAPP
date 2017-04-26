@@ -18,17 +18,18 @@ Parser::Parser() {
 }
 
 Parser::Parser(int fd) {
-    SetAllVector(fd);
+    fd_ = fd;
+    SetAllVector();
     _type = -1;
 }
 
-void Parser::SetAllVector(int fd) {
-    lseek(fd, 0, SEEK_SET);
+void Parser::SetAllVector() {
+    lseek(fd_, 0, SEEK_SET);
     _responseVector.clear();
     _AllVector.clear();
     for (;;) {
         Billing billing;
-        int re = billing.ReadBin(fd);
+        int re = billing.ReadBin(fd_);
         if (re == 0)
             break;
         if (re == -1)
@@ -37,7 +38,7 @@ void Parser::SetAllVector(int fd) {
     }
 }
 
-void Parser::ParseRequest(const char *request, int fd) {
+void Parser::ParseRequest(const char *request) {
     _total = 0;
     std::vector<char> v;
     v = DeleteSpaces(request);
@@ -50,7 +51,7 @@ void Parser::ParseRequest(const char *request, int fd) {
     sscanf(&v[0], "SAVE%n", &x);
     if (x == 4) {
         _type = 7;
-        GetSave(fd);
+        GetSave();
         return;
     }
     // SELECTS
@@ -834,7 +835,8 @@ void Parser::GetSelect(SELECT select, int flag) {
     _responseVector.clear();
 	if (_type == 1) {
         if (flag == 12) {
-            _responseVector = _AllVector;
+            for (size_t i = 0; i < _AllVector.size(); ++i)
+                _responseVector.push_back(i);
             return;
         }
         if (flag == 1) {
@@ -846,7 +848,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                     _AllVector[i].GetSum() <= select.GetMaxSum() &&
                     _AllVector[i].GetSum() <= select.GetMinSum()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 2) {
@@ -856,7 +858,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                     _AllVector[i].GetDate() <= select.GetMaxDate() &&
                     _AllVector[i].GetDate() >= select.GetMinDate()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 3) {
@@ -864,7 +866,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                 if (_AllVector[i].GetPhone() == select.GetPhone() &&
                     _AllVector[i].GetService() == select.GetService()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 4) {
@@ -873,7 +875,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                     _AllVector[i].GetDate() <= select.GetMaxDate() &&
                     _AllVector[i].GetDate() >= select.GetMinDate()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 5) {
@@ -882,7 +884,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                     _AllVector[i].GetSum() <= select.GetMaxSum() &&
                     _AllVector[i].GetSum() >= select.GetMinSum()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 6) {
@@ -891,7 +893,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                     _AllVector[i].GetDate() <= select.GetMaxDate() &&
                     _AllVector[i].GetDate() >= select.GetMinDate()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 7) {
@@ -900,19 +902,19 @@ void Parser::GetSelect(SELECT select, int flag) {
                     _AllVector[i].GetSum() <= select.GetMaxSum() &&
                     _AllVector[i].GetSum() >= select.GetMinSum()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 8) {
             for (size_t i = 0; i < _AllVector.size(); ++i)
                 if (_AllVector[i].GetPhone() == select.GetPhone())
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 9) {
             for (size_t i = 0; i < _AllVector.size(); ++i)
                 if (_AllVector[i].GetService() == select.GetService())
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 10) {
@@ -920,7 +922,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                 if (_AllVector[i].GetDate() >= select.GetMinDate() &&
                     _AllVector[i].GetDate() <= select.GetMaxDate()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
         if (flag == 11) {
@@ -928,7 +930,7 @@ void Parser::GetSelect(SELECT select, int flag) {
                 if (_AllVector[i].GetSum() <= select.GetMaxSum() &&
                     _AllVector[i].GetSum() >= select.GetMinSum()
                         )
-                    _responseVector.push_back(_AllVector[i]);
+                    _responseVector.push_back(i);
             return;
         }
     }
@@ -1494,16 +1496,17 @@ void Parser::GetUpdate(UPDATE update, int flag) {
 
 }
 
-void Parser::GetSave(int fd) {
+void Parser::GetSave() {
     if (_type == 7) {
-        if (fd) {
-            if (close(fd) == -1)
+        if (fd_) {
+            if (close(fd_) == -1)
                 throw std::invalid_argument("Cant close file in parser");
-            fd = open("database.db", 577, 384);
-            if (fd == -1)
+            fd_ = open("database.db", 577, 384);
+
+            if (fd_ == -1)
                 throw std::invalid_argument("Cant open file in parser");
             for (size_t i = 0; i < _AllVector.size(); ++i)
-                _AllVector[i].WriteBin(fd);
+                _AllVector[i].WriteBin(fd_);
             return;
         } else
             throw std::invalid_argument("File does not open");
@@ -1512,7 +1515,7 @@ void Parser::GetSave(int fd) {
         throw std::invalid_argument("Its not save");
 }
 
-std::vector<Billing> Parser::GetResponse() const {
+std::vector<size_t> Parser::GetResponse() const {
     return _responseVector;
 }
 
@@ -1523,4 +1526,5 @@ int Parser::GetType() const {
 size_t Parser::GetTotal() const {
     return _total;
 }
+
 

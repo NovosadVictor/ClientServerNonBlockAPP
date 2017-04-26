@@ -3,11 +3,9 @@
 Conn::Conn(int fd, int file_desc):
         fd_(fd), actv_(true),
         icur_(0), iall_(4), already_written_(true),
-        ocur_(0), oall_(10, 0),
-        ibuf_(4, 0), obuf_(10, std::vector<char>(4, 0)),
-        file_desc_(file_desc), curr_(0) {
-    request_.SetAllVector(file_desc);
-}
+        ocur_(0), oall_(1, 0), request_(file_desc),
+        ibuf_(4, 0), obuf_(1, std::vector<char>(4, 0)),
+        file_desc_(file_desc), curr_(0) {}
 
 Conn::~Conn() {
     close_();
@@ -56,7 +54,7 @@ void Conn::rcv() {
             puts(&ibuf_[4]);
             already_written_ = false;
             try {
-                request_.ParseRequest(&ibuf_[sizeof(h)], file_desc_);
+                request_.ParseRequest(&ibuf_[sizeof(h)]);
             }
             catch (int err) {
                 obuf_.resize(1, std::vector<char>(4, 0));
@@ -145,16 +143,27 @@ void Conn::rcv() {
                 sprintf(&(obuf_[1][0]) + sizeof(h), "    quantity = %07lu\n", request_response_size);
                 obuf_[1][23 + sizeof(h)] = '\0';
 
+                std::vector<size_t> v;
+                v = request_.GetResponse();
                 for (size_t i = 2; i < length; ++i) {
                     h = 52;
                     oall_[i] = h + sizeof(h);
                     memcpy(&(obuf_[i][0]), &h, sizeof(h));
-                    int service = (request_.GetResponse()[i - 2]).GetService();
-                    double sum = (request_.GetResponse()[i - 2]).GetSum();
+                    int service = (request_._AllVector[v[i - 2]]).GetService();
+                    double sum = (request_._AllVector[v[i - 2]]).GetSum();
+                    char number[14];
+                    sprintf(number, "%13s",
+                            (request_._AllVector[v[i - 2]]).GetPhone().GetNumber());
+                    number[13] = '\0';
+                    char date[20];
+                    sprintf(date, "%19s",
+                            (request_._AllVector[v[i - 2]]).GetDate().GetDate());
+                    date[19] = '\0';
+
                     sprintf(&(obuf_[i][0]) + sizeof(h), "    %13s %d %19s %05lf",
-                            (request_.GetResponse()[i - 2]).GetPhone().GetNumber(),
+                            number,
                             service,
-                            (request_.GetResponse()[i - 2]).GetDate().GetDate(),
+                            date,
                             sum
                     );
                     obuf_[i][51 + sizeof(h)] = '\0';
