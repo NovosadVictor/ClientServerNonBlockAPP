@@ -22,6 +22,7 @@
 class Conn {
 public:
     Conn(int fd, int file_desc);
+        
    ~Conn();
 
     bool canRcv() const;
@@ -47,6 +48,7 @@ private:
 
     void close_();
 };
+
 
 class ConnDb {
 public:

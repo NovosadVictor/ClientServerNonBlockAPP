@@ -1,3 +1,4 @@
+INSERT [1000000]
 INSERT phone=[925-067-18-32] service=[2] sum=[123]
 UPDATE service=[1] WHERE sum=[200,2000]
 SELECT service=[1]

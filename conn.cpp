@@ -1,11 +1,19 @@
 #include "conn.hpp"
 
-Conn::Conn(int fd, int file_desc):
-        fd_(fd), actv_(true),
-        icur_(0), iall_(4), already_written_(true),
-        ocur_(0), oall_(1, 0), request_(file_desc),
-        ibuf_(4, 0), obuf_(1, std::vector<char>(4, 0)),
-        file_desc_(file_desc), curr_(0) {}
+Conn::Conn(int fd, int file_desc) {
+	obuf_ = std::vector<std::vector<char>>(1, std::vector<char>(4, 0));
+	oall_ = std::vector<size_t>(1, 0);
+	ibuf_ = std::vector<char>(4, 0);
+	request_ = Parser(file_desc);
+        fd_ = fd;
+	actv_ = true;
+        icur_ = 0;
+	iall_ = 4;
+	already_written_ = true;
+        ocur_ = 0;
+        file_desc_ = file_desc;
+	curr_ = 0;
+}
 
 Conn::~Conn() {
     close_();

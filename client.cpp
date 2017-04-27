@@ -172,7 +172,7 @@ static void repl(int fd) {
 
                     quantity = atoi(&buf[15]);
 
-                    for (size_t i = 0; i < quantity; ++i) {
+                    for (size_t i = 0; i < (size_t)quantity; ++i) {
                         buf.clear();
 
                         if (!readAll(fd, (char *) &len, sizeof len))
